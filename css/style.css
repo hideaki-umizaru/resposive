@@ -542,7 +542,8 @@ body {
   }
   .news {
     position: absolute;
-    top: 30px;
+    margin-bottom: 0;
+    margin-top: 20px;
     width: 100%;
     font-size: 7px;
   }
@@ -559,7 +560,6 @@ body {
 
 .common-btn {
   width: 70%;
-  height: 20px;
   padding: 10px 5px;
   margin-bottom: 30px;
 }
@@ -567,19 +567,27 @@ body {
   width: 100%;
   margin: 0 auto;
 }
+
 .service-content_inner {
-  position: absolute;
-  top: 80%;
-  left: 0%;
-  width: 100%;
-  margin: 0 auto;
+display: block;
+position: absolute;
+left: 0;
+width: 100%;
+margin-top: 155px;
+margin-left: none;
+float: left;
 }
 .service-img_second {
   margin-top: 300px;
   width: 100%;
 }
 .service-content_inner-second {
-
+  position: absolute;
+  top: 80%;
+  left: 0%;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 20px;
 }
 .company {
   margin-top: 500px
@@ -612,8 +620,9 @@ body {
   justify-content: center;
   align-items: center;
 }
-.footer h1 {
-  text-align: center;
+.header-logo {
+  position: absolute;
+  left: 20%;
 }
 .top-footer small {
 font-size:5px;
