@@ -531,101 +531,48 @@ body {
     display: none;
   }
   .catchcopy {
-    position: absolute;
-    top: 30%;
-    left: 10%;
-    font-size: 40px;
-    font-style: italic;
-    font-weight: bold;
-    color: #fff;
-    line-height: 1;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    text-align: center;
+    transform: translate(-50%, -50%);
   }
   .news {
-    position: absolute;
-    margin-bottom: 0;
-    margin-top: 20px;
     width: 100%;
-    font-size: 7px;
   }
   .mission-content {
+    padding-top: 10% 0;
     margin: 0 auto;
-    padding: 10px;
   }
-  .mission_title {
-    font-size: 20px;
-  }
-  .mission_text {
-    font-size: 10px;
-  }
-
-.common-btn {
-  width: 70%;
-  padding: 10px 5px;
-  margin-bottom: 30px;
-}
-.service-img {
-  width: 100%;
-  margin: 0 auto;
-}
-
-.service-content_inner {
-display: block;
-position: absolute;
-left: 0;
-width: 100%;
-margin-top: 155px;
-margin-left: none;
-float: left;
-}
 .service-img_second {
-  margin-top: 300px;
-  width: 100%;
+  margin: 0 30% 0 0;
 }
 .service-content_inner-second {
-  position: absolute;
-  top: 80%;
-  left: 0%;
-  width: 100%;
+  left: 30%;
+}
+.service-content {
+margin: 0 auto;
+}
+.service-content_inner {
+    width: 90%;
+    position: inherit;
+    background: rgba(255, 255, 255, 0.8);
+    left: 5%;
+  }
+.service-img {
+  width: 90%;
   margin: 0 auto;
-  padding-bottom: 20px;
 }
-.company {
-  margin-top: 500px
-}
-.company-img,
-.recruit-img {
+
+.recruit_company_size {
   width: 100%;
-}
-.recruit-img {
-  margin-top: 0;
-}
-.faq {
-  display: inline-block;
 }
 .faq-title {
   font-size: 25px;
 }
-.faq-title-jp {
-  font-size: 15px;
-}
-.contact-text{
-  font-size: 10px;
-}
-.contact-btn {
-  padding-top: 0;
-}
- .header-logo{
+.top-footer .header-logo {
+  margin: 0;
+  width: 100%;
   text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.header-logo {
-  position: absolute;
-  left: 20%;
-}
-.top-footer small {
-font-size:5px;
-margin: 0;
 }
 }
