@@ -541,8 +541,9 @@ body {
     width: 100%;
   }
   .mission-content {
-    padding-top: 10% 0;
+    padding: 10% 0;
     margin: 0 auto;
+
   }
 .service-img_second {
   margin: 0 30% 0 0;
@@ -563,12 +564,17 @@ margin: 0 auto;
   width: 90%;
   margin: 0 auto;
 }
-
 .recruit_company_size {
   width: 100%;
 }
+.company-img  {
+  width: 100%;
+}
+.recruit-img {
+  width: 100%;
+}
 .faq-title {
-  font-size: 25px;
+  font-size: 30px;
 }
 .top-footer .header-logo {
   margin: 0;
